@@ -6,7 +6,7 @@ import { useReadContract } from "wagmi";
 import { contractConfig } from "@/lib/constants";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import somfeedLogo from "../public/somfeed.svg";
+import somfeedLogo from "/somfeed.svg";
 type Post = {
   id: bigint;
   author: `0x${string}`;
