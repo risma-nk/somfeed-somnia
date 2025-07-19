@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useAccount, useWriteContract } from 'wagmi';
-import { contractConfig } from '@/lib/constants';
+import { contractConfig } from '../../lib/constants';
 import toast from 'react-hot-toast';
 import { Icons } from './Icons';
 

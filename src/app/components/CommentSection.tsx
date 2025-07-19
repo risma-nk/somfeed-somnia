@@ -4,7 +4,7 @@ import { useReadContract } from 'wagmi';
 import { contractConfig } from '@/lib/constants';
 import { formatDistanceToNow } from 'date-fns';
 import CommentForm from './CommentForm';
-import { CustomAvatar } from '@/lib/avatar';
+import { CustomAvatar } from '../../lib/avatar';
 import DisplayUsername from './DisplayUsername';
 
 type Comment = {

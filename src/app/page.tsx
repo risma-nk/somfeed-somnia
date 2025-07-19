@@ -3,7 +3,7 @@
 import CreatePost from "./components/CreatePost";
 import PostCard from "./components/PostCard";
 import { useReadContract } from "wagmi";
-import { contractConfig } from "@/lib/constants";
+import { contractConfig } from "../lib/constants";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import somfeedLogo from "../../public/somfeed.svg";

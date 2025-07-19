@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useAccount, useWriteContract } from "wagmi";
-import { contractConfig, POST_FEE_ETH } from "@/lib/constants";
+import { contractConfig, POST_FEE_ETH } from "../../lib/constants";
 import toast from "react-hot-toast";
 import { parseEther } from "viem";
 import { Icons } from "./Icons";

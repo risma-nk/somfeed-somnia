@@ -1,14 +1,14 @@
 'use client';
 
 import { useAccount, useWriteContract, useReadContract } from 'wagmi';
-import { contractConfig } from '@/lib/constants';
+import { contractConfig } from '../../lib/constants';
 import { formatDistanceToNow } from 'date-fns';
 import { Icons } from './Icons';
 import CommentSection from './CommentSection';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import DisplayUsername from "./DisplayUsername";
-import { CustomAvatar } from "@/lib/avatar";
+import { CustomAvatar } from "../../lib/avatar";
 
 type Post = {
   id: bigint;
