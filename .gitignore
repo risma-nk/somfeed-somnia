@@ -1,0 +1,32 @@
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+
+# Production build
+/build
+
+# Vercel
+.vercel
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# ESLint
+.eslintcache
+
+# Hardhat
+/artifacts
+/cache
+/typechain-types
+hardhat-config.ts.backup
+
+# Misc
+.DS_Store
+*.pem
+*.log
