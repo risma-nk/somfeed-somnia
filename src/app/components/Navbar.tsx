@@ -2,24 +2,22 @@
 
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Link from "next/link";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa6";
 import DisplayUsername from "./DisplayUsername";
 
 export default function Navbar() {
   return (
     <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
-
-        {/* Kiri: Logo + Twitter */}
         <div className="flex items-center gap-3">
           <Link
-            href="https://twitter.com/romanromannya"
+            href="https://discord.com/invite/9HkKkkA9Jt"
             className="text-primary hover:text-white transition-colors"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Twitter Profile"
+            aria-label="Discord Server"
           >
-            <FaXTwitter size={28} />
+            <FaDiscord size={28} />
           </Link>
         </div>
         <div className="flex items-center">
